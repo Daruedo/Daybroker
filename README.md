@@ -6,7 +6,7 @@
  - Obrigatoriamente tem uma data, quantidade e valor;
  - Seu volume é calculado multiplicando-se a quantidade negociada no dia pelo valor negociado.
 
- > Projeto sendo execuado pelo sistemas de módulos do ECMAScript 6
+ > Projeto sendo executado pelo sistemas de módulos do ECMAScript 6
  
  # Tela Inicial:
  
