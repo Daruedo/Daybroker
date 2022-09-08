@@ -12,7 +12,7 @@ npm run start
  
  # Tela Inicial:
  
- ![image](https://user-images.githubusercontent.com/66702430/188997497-2e95df0a-7ad9-4e83-b933-abc49d7f7348.png)
+ ![chrome_MwV5FVln5p](https://user-images.githubusercontent.com/66702430/189228507-54ba24ed-3291-4149-b6b9-8984e93b8524.png)
 
 
  o código TypeScript precisa ser traduzido/convertido para um código em ECMASCRIPT para que seja entendido pelo navegador. Lembre-se que apenas ECMASCRIPT é suportado pelo navegador.
