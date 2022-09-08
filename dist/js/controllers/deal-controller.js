@@ -1,17 +1,19 @@
 import { Deal } from '../models/deal.js';
 import { Deals } from '../models/deals.js';
+import { DealsView } from '../views/deals-view.js';
 export class DealController {
     constructor() {
         this.deals = new Deals();
+        this.dealsView = new DealsView('#dealsView');
         this.inputDate = document.querySelector('#date');
         this.inputQuantity = document.querySelector('#quantity');
         this.inputValue = document.querySelector('#value');
+        this.dealsView.update(this.deals);
     }
     increase() {
         const deal = this.createDeal();
-        deal.date.setDate(12);
         this.deals.increase(deal);
-        console.log(this.deals.list());
+        this.dealsView.update(this.deals);
         this.clearForm();
     }
     createDeal() {
