@@ -23,13 +23,12 @@ npm run start
 
  modelo de algo que existe 
  negociação possuia regras
-<<<<<<< HEAD
 
- 02.
-Download do TypeScript
-Configuração do compilador e papel do tsconfig.json
-Integração com scripts do Node.js
-Modificadores de acesso private e public
-Benefícios iniciais da linguagem TypeScript
-=======
->>>>>>> a09d0973cff177d154d1e8ab07ba3979669152e0
+
+
+02.
+- Download do TypeScript
+- Configuração do compilador e papel do tsconfig.json
+- Integração com scripts do Node.js
+- Modificadores de acesso private e public
+- Benefícios iniciais da linguagem TypeScript
