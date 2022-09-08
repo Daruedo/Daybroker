@@ -34,16 +34,16 @@ npm run start
 - Benefícios iniciais da linguagem TypeScript
 
 04.
-Modelagem da classe Negociacoes
-Utilização de Generics
-Revisão sobre encapsulamento
-Questões de mutabilidade e como solucioná-la
-O tipo ReadonlyArray
-Adição de negociações em nossa lista
+- Modelagem da classe Negociacoes
+- Utilização de Generics
+- Revisão sobre encapsulamento
+- Questões de mutabilidade e como solucioná-la
+- O tipo ReadonlyArray
+- Adição de negociações em nossa lista
 
 05.
-Nova maneira de declaração de array com generics
-O tipo ReadonlyArray
-O modificador readonly
-Getters vs propriedades públicas em modo de leitura
-Programação defensiva
+- Nova maneira de declaração de array com generics
+- O tipo ReadonlyArray
+- O modificador readonly
+- Getters vs propriedades públicas em modo de leitura
+- Programação defensiva
