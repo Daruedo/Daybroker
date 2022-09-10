@@ -26,14 +26,14 @@ npm run start
 
 
 
-02.
+01.02
 - Download do TypeScript
 - Configuração do compilador e papel do tsconfig.json
 - Integração com scripts do Node.js
 - Modificadores de acesso private e public
 - Benefícios iniciais da linguagem TypeScript
 
-04.
+01.04
 - Modelagem da classe Negociacoes
 - Utilização de Generics
 - Revisão sobre encapsulamento
@@ -41,13 +41,14 @@ npm run start
 - O tipo ReadonlyArray
 - Adição de negociações em nossa lista
 
-05.
+01.05
 - Nova maneira de declaração de array com generics
 - O tipo ReadonlyArray
 - O modificador readonly
 - Getters vs propriedades públicas em modo de leitura
 - Programação defensiva
-<<<<<<< HEAD
+
+## 02
 
 02.01
 - Inspiração no React para criação de templates declarativos e dinâmicos
@@ -55,7 +56,6 @@ npm run start
 - Template dinâmico
 - Formatação de datas usando Intl
 
-__
 02.02
 - Herança com TypeScript
 - Classes com tipo genérico
@@ -81,5 +81,3 @@ __
 - Ativação do strictNullChecks
 - Como suprimir erros, quando fizer sentido, resultantes do strictNullChecks
 - Benefícios do strictNullChecks no controle do fluxo da sua aplicação
-=======
->>>>>>> 0186cd8ccf4d2cee9fe9a507efd24bff03a8c955
