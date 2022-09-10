@@ -12,7 +12,7 @@ npm run start
  
  # Tela Inicial:
  
- ![image](https://user-images.githubusercontent.com/66702430/188997497-2e95df0a-7ad9-4e83-b933-abc49d7f7348.png)
+ ![chrome_MwV5FVln5p](https://user-images.githubusercontent.com/66702430/189228507-54ba24ed-3291-4149-b6b9-8984e93b8524.png)
 
 
  o código TypeScript precisa ser traduzido/convertido para um código em ECMASCRIPT para que seja entendido pelo navegador. Lembre-se que apenas ECMASCRIPT é suportado pelo navegador.
@@ -47,6 +47,7 @@ npm run start
 - O modificador readonly
 - Getters vs propriedades públicas em modo de leitura
 - Programação defensiva
+<<<<<<< HEAD
 
 02.01
 - Inspiração no React para criação de templates declarativos e dinâmicos
@@ -80,3 +81,5 @@ __
 - Ativação do strictNullChecks
 - Como suprimir erros, quando fizer sentido, resultantes do strictNullChecks
 - Benefícios do strictNullChecks no controle do fluxo da sua aplicação
+=======
+>>>>>>> 0186cd8ccf4d2cee9fe9a507efd24bff03a8c955
