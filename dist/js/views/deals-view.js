@@ -1,10 +1,8 @@
-export class DealsView {
-    constructor(selector) {
-        this.element = document.querySelector(selector);
-    }
+import { View } from "./view.js";
+export class DealsView extends View {
     template(model) {
         return `
-            <table>
+            <table class="table table-hover table-bordered">
                 <thead>
                     <tr>
                         <th>DATA</th>
@@ -25,8 +23,5 @@ export class DealsView {
                 </tbody>
             </table>
         `;
-    }
-    update(model) {
-        this.element.innerHTML = this.template(model);
     }
 }

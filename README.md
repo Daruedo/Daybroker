@@ -47,3 +47,36 @@ npm run start
 - O modificador readonly
 - Getters vs propriedades públicas em modo de leitura
 - Programação defensiva
+
+02.01
+- Inspiração no React para criação de templates declarativos e dinâmicos
+- Manipulação declarativa do DOM através de template
+- Template dinâmico
+- Formatação de datas usando Intl
+
+__
+02.02
+- Herança com TypeScript
+- Classes com tipo genérico
+- Classes abstratas
+- O modificador protected
+
+02.03
+
+- Visibilidade de métodos
+- Validando negociações em dias úteis
+- Vantagens do uso de enums
+- Cuidados com enums
+
+02.04
+
+- Revisão da lógica de conversão negociações
+- Método estáticos
+- Parâmetros opcionais
+
+02.05
+
+- Remoção de comentários do código compilado
+- Ativação do strictNullChecks
+- Como suprimir erros, quando fizer sentido, resultantes do strictNullChecks
+- Benefícios do strictNullChecks no controle do fluxo da sua aplicação
