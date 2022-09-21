@@ -2,13 +2,13 @@
 var api = {}
 
 
-api.dados = function(req, res) {
+api.data = function(req, res) {
 
     res.json([
-        { montante: 200.5, vezes: 2 },
-        { montante: 100.2, vezes: 5 },
-        { montante: 50.5, vezes: 1 },
-        { montante: 70.5, vezes: 2 }
+        { value: 200.5, quantity: 2 },
+        { value: 100.2, quantity: 5 },
+        { value: 50.5, quantity: 1 },
+        { value: 70.5, quantity: 2 }
     ]);
     
 };

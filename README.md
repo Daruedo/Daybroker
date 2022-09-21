@@ -25,6 +25,7 @@ npm run start
  negociação possuia regras
 
 
+## 01
 
 01.02
 - Download do TypeScript
@@ -81,3 +82,35 @@ npm run start
 - Ativação do strictNullChecks
 - Como suprimir erros, quando fizer sentido, resultantes do strictNullChecks
 - Benefícios do strictNullChecks no controle do fluxo da sua aplicação
+
+## 03
+
+03.01
+
+- Introdução e estrutura do projeto
+- Requisitos não funcionais
+- Decorator de método
+- Logar tempo de execução com decorator
+
+03.02
+
+- Decorator com parâmetro
+- Criação de um decorator de inspeção
+- Ordem de execução dos decorators
+- Simplicação no design de decorators
+- Portabilidade de funcionalidade antiga para decorators
+
+03.03
+
+- Como evitar código duplicado
+- Decorator de propriedade
+- Criação dinâmica de getters
+- O uso de Object.defineProperty
+- Cache de decorators
+
+03.04
+
+- API externa
+- Consumindo API externa
+- Definindo uma interface para a API
+- Isolando o acesso à API em um serviço
