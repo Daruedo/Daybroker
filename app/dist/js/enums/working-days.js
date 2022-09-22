@@ -8,3 +8,4 @@ export var WorkingDays;
     WorkingDays[WorkingDays["FRIDAY"] = 5] = "FRIDAY";
     WorkingDays[WorkingDays["SATURDAY"] = 6] = "SATURDAY";
 })(WorkingDays || (WorkingDays = {}));
+//# sourceMappingURL=working-days.js.map

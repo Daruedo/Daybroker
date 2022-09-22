@@ -11,6 +11,7 @@ import { WorkingDays } from '../enums/working-days.js';
 import { Deal } from '../models/deal.js';
 import { Deals } from '../models/deals.js';
 import { DealsService } from '../services/deals-service.js';
+import { ShowInConsole } from '../utils/show-in-console.js';
 import { DealsView } from '../views/deals-view.js';
 import { MessageView } from '../views/message-view.js';
 export class DealController {
@@ -28,11 +29,20 @@ export class DealController {
             return;
         }
         this.deals.increase(deal);
+        ShowInConsole(deal, this.deals);
         this.clearForm();
         this.updateView();
     }
     importData() {
-        this.dealsService.getDealsRegistered()
+        this.dealsService
+            .getDealsRegistered()
+            .then(dealsRegistered => {
+            return dealsRegistered.filter(dealsRegistered => {
+                return !this.deals
+                    .list()
+                    .some(deal => deal.isDealEqual(dealsRegistered));
+            });
+        })
             .then(dealsRegistered => {
             for (let deal of dealsRegistered) {
                 this.deals.increase(deal);
@@ -68,3 +78,4 @@ __decorate([
     inspect,
     runtimeLogin()
 ], DealController.prototype, "increase", null);
+//# sourceMappingURL=deal-controller.js.map

@@ -35,3 +35,4 @@ export class DealsView extends View {
 __decorate([
     escape
 ], DealsView.prototype, "template", null);
+//# sourceMappingURL=deals-view.js.map

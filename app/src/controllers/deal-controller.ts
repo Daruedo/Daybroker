@@ -5,6 +5,7 @@ import { WorkingDays } from '../enums/working-days.js';
 import { Deal } from '../models/deal.js';
 import { Deals } from '../models/deals.js';
 import { DealsService } from '../services/deals-service.js';
+import { ShowInConsole } from '../utils/show-in-console.js';
 import { DealsView } from '../views/deals-view.js';
 import { MessageView } from '../views/message-view.js';
 
@@ -42,18 +43,27 @@ export class DealController {
         }
 
         this.deals.increase(deal);
+        ShowInConsole(deal, this.deals);
         this.clearForm();
         this.updateView();
     }
 
     importData(): void {
-        this.dealsService.getDealsRegistered()
-        .then(dealsRegistered => {
-            for(let deal of dealsRegistered) {
-                this.deals.increase(deal);
-            }
-            this.dealsView.update(this.deals);
-        });
+        this.dealsService
+            .getDealsRegistered()
+            .then(dealsRegistered => {
+                return dealsRegistered.filter(dealsRegistered => {
+                    return !this.deals
+                        .list()
+                        .some(deal => deal.isDealEqual(dealsRegistered))
+                });
+            })
+            .then(dealsRegistered => {
+                for(let deal of dealsRegistered) {
+                    this.deals.increase(deal);
+                }
+                this.dealsView.update(this.deals);
+            });
     }
 
     private isWorkingDay(date: Date) {

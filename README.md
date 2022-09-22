@@ -114,3 +114,14 @@ npm run start
 - Consumindo API externa
 - Definindo uma interface para a API
 - Isolando o acesso à API em um serviço
+
+03.05
+
+- Chega de múltiplos console.log
+- Aplicação prática do Polimorfismo
+- Interface de método
+- Evitando importar negociações duplicadas
+- Estendendo interfaces
+- Geração de sourmaps e debug da aplicação no navegador
+
+sourceMap => Permite debuggar aplicação em fase de desenvolvimento em TypeScripts

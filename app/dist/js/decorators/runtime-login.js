@@ -17,3 +17,4 @@ export function runtimeLogin(inSeconds = false) {
         return descriptor;
     };
 }
+//# sourceMappingURL=runtime-login.js.map

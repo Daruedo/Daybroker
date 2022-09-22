@@ -8,4 +8,11 @@ export class Deals {
     list() {
         return this.deals;
     }
+    toString() {
+        return JSON.stringify(this.deals, null, 2);
+    }
+    isDealEqual(deals) {
+        return JSON.stringify(this.deals) === JSON.stringify(deals.list());
+    }
 }
+//# sourceMappingURL=deals.js.map
